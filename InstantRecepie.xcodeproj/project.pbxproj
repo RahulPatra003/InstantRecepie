@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F9F5DF249A332200324EF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9F5DE249A332200324EF6 /* AppDelegate.swift */; };
+		04F9F5E1249A332200324EF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9F5E0249A332200324EF6 /* SceneDelegate.swift */; };
+		04F9F5E3249A332200324EF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9F5E2249A332200324EF6 /* ViewController.swift */; };
+		04F9F5E6249A332200324EF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F9F5E4249A332200324EF6 /* Main.storyboard */; };
+		04F9F5E8249A332300324EF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F9F5E7249A332300324EF6 /* Assets.xcassets */; };
+		04F9F5EB249A332300324EF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F9F5E9249A332300324EF6 /* LaunchScreen.storyboard */; };
+		04F9F5F6249A332300324EF6 /* InstantRecepieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9F5F5249A332300324EF6 /* InstantRecepieTests.swift */; };
+		04F9F601249A332300324EF6 /* InstantRecepieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9F600249A332300324EF6 /* InstantRecepieUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F9F5F2249A332300324EF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F9F5D3249A332200324EF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F9F5DA249A332200324EF6;
+			remoteInfo = InstantRecepie;
+		};
+		04F9F5FD249A332300324EF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F9F5D3249A332200324EF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F9F5DA249A332200324EF6;
+			remoteInfo = InstantRecepie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F9F5DB249A332200324EF6 /* InstantRecepie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstantRecepie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F9F5DE249A332200324EF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04F9F5E0249A332200324EF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04F9F5E2249A332200324EF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04F9F5E5249A332200324EF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F9F5E7249A332300324EF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F9F5EA249A332300324EF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F9F5EC249A332300324EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F9F5F1249A332300324EF6 /* InstantRecepieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantRecepieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F9F5F5249A332300324EF6 /* InstantRecepieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantRecepieTests.swift; sourceTree = "<group>"; };
+		04F9F5F7249A332300324EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F9F5FC249A332300324EF6 /* InstantRecepieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantRecepieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F9F600249A332300324EF6 /* InstantRecepieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantRecepieUITests.swift; sourceTree = "<group>"; };
+		04F9F602249A332300324EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F9F5D8249A332200324EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F9F5EE249A332300324EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F9F5F9249A332300324EF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F9F5D2249A332200324EF6 = {
+			isa = PBXGroup;
+			children = (
+				04F9F5DD249A332200324EF6 /* InstantRecepie */,
+				04F9F5F4249A332300324EF6 /* InstantRecepieTests */,
+				04F9F5FF249A332300324EF6 /* InstantRecepieUITests */,
+				04F9F5DC249A332200324EF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F9F5DC249A332200324EF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F9F5DB249A332200324EF6 /* InstantRecepie.app */,
+				04F9F5F1249A332300324EF6 /* InstantRecepieTests.xctest */,
+				04F9F5FC249A332300324EF6 /* InstantRecepieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F9F5DD249A332200324EF6 /* InstantRecepie */ = {
+			isa = PBXGroup;
+			children = (
+				04F9F5DE249A332200324EF6 /* AppDelegate.swift */,
+				04F9F5E0249A332200324EF6 /* SceneDelegate.swift */,
+				04F9F5E2249A332200324EF6 /* ViewController.swift */,
+				04F9F5E4249A332200324EF6 /* Main.storyboard */,
+				04F9F5E7249A332300324EF6 /* Assets.xcassets */,
+				04F9F5E9249A332300324EF6 /* LaunchScreen.storyboard */,
+				04F9F5EC249A332300324EF6 /* Info.plist */,
+			);
+			path = InstantRecepie;
+			sourceTree = "<group>";
+		};
+		04F9F5F4249A332300324EF6 /* InstantRecepieTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F9F5F5249A332300324EF6 /* InstantRecepieTests.swift */,
+				04F9F5F7249A332300324EF6 /* Info.plist */,
+			);
+			path = InstantRecepieTests;
+			sourceTree = "<group>";
+		};
+		04F9F5FF249A332300324EF6 /* InstantRecepieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04F9F600249A332300324EF6 /* InstantRecepieUITests.swift */,
+				04F9F602249A332300324EF6 /* Info.plist */,
+			);
+			path = InstantRecepieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F9F5DA249A332200324EF6 /* InstantRecepie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F9F605249A332300324EF6 /* Build configuration list for PBXNativeTarget "InstantRecepie" */;
+			buildPhases = (
+				04F9F5D7249A332200324EF6 /* Sources */,
+				04F9F5D8249A332200324EF6 /* Frameworks */,
+				04F9F5D9249A332200324EF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstantRecepie;
+			productName = InstantRecepie;
+			productReference = 04F9F5DB249A332200324EF6 /* InstantRecepie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F9F5F0249A332300324EF6 /* InstantRecepieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F9F608249A332300324EF6 /* Build configuration list for PBXNativeTarget "InstantRecepieTests" */;
+			buildPhases = (
+				04F9F5ED249A332300324EF6 /* Sources */,
+				04F9F5EE249A332300324EF6 /* Frameworks */,
+				04F9F5EF249A332300324EF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F9F5F3249A332300324EF6 /* PBXTargetDependency */,
+			);
+			name = InstantRecepieTests;
+			productName = InstantRecepieTests;
+			productReference = 04F9F5F1249A332300324EF6 /* InstantRecepieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04F9F5FB249A332300324EF6 /* InstantRecepieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F9F60B249A332300324EF6 /* Build configuration list for PBXNativeTarget "InstantRecepieUITests" */;
+			buildPhases = (
+				04F9F5F8249A332300324EF6 /* Sources */,
+				04F9F5F9249A332300324EF6 /* Frameworks */,
+				04F9F5FA249A332300324EF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F9F5FE249A332300324EF6 /* PBXTargetDependency */,
+			);
+			name = InstantRecepieUITests;
+			productName = InstantRecepieUITests;
+			productReference = 04F9F5FC249A332300324EF6 /* InstantRecepieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F9F5D3249A332200324EF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Techangouts;
+				TargetAttributes = {
+					04F9F5DA249A332200324EF6 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					04F9F5F0249A332300324EF6 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 04F9F5DA249A332200324EF6;
+					};
+					04F9F5FB249A332300324EF6 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 04F9F5DA249A332200324EF6;
+					};
+				};
+			};
+			buildConfigurationList = 04F9F5D6249A332200324EF6 /* Build configuration list for PBXProject "InstantRecepie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F9F5D2249A332200324EF6;
+			productRefGroup = 04F9F5DC249A332200324EF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F9F5DA249A332200324EF6 /* InstantRecepie */,
+				04F9F5F0249A332300324EF6 /* InstantRecepieTests */,
+				04F9F5FB249A332300324EF6 /* InstantRecepieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F9F5D9249A332200324EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F9F5EB249A332300324EF6 /* LaunchScreen.storyboard in Resources */,
+				04F9F5E8249A332300324EF6 /* Assets.xcassets in Resources */,
+				04F9F5E6249A332200324EF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F9F5EF249A332300324EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F9F5FA249A332300324EF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F9F5D7249A332200324EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F9F5E3249A332200324EF6 /* ViewController.swift in Sources */,
+				04F9F5DF249A332200324EF6 /* AppDelegate.swift in Sources */,
+				04F9F5E1249A332200324EF6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F9F5ED249A332300324EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F9F5F6249A332300324EF6 /* InstantRecepieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F9F5F8249A332300324EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F9F601249A332300324EF6 /* InstantRecepieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F9F5F3249A332300324EF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F9F5DA249A332200324EF6 /* InstantRecepie */;
+			targetProxy = 04F9F5F2249A332300324EF6 /* PBXContainerItemProxy */;
+		};
+		04F9F5FE249A332300324EF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F9F5DA249A332200324EF6 /* InstantRecepie */;
+			targetProxy = 04F9F5FD249A332300324EF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04F9F5E4249A332200324EF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F9F5E5249A332200324EF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F9F5E9249A332300324EF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F9F5EA249A332300324EF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F9F603249A332300324EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04F9F604249A332300324EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F9F606249A332300324EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7N9CPQ75A;
+				INFOPLIST_FILE = InstantRecepie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techangouts.instantrecepie.InstantRecepie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F9F607249A332300324EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7N9CPQ75A;
+				INFOPLIST_FILE = InstantRecepie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techangouts.instantrecepie.InstantRecepie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04F9F609249A332300324EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7N9CPQ75A;
+				INFOPLIST_FILE = InstantRecepieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techangouts.instantrecepie.InstantRecepieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstantRecepie.app/InstantRecepie";
+			};
+			name = Debug;
+		};
+		04F9F60A249A332300324EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7N9CPQ75A;
+				INFOPLIST_FILE = InstantRecepieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techangouts.instantrecepie.InstantRecepieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstantRecepie.app/InstantRecepie";
+			};
+			name = Release;
+		};
+		04F9F60C249A332300324EF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7N9CPQ75A;
+				INFOPLIST_FILE = InstantRecepieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techangouts.instantrecepie.InstantRecepieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstantRecepie;
+			};
+			name = Debug;
+		};
+		04F9F60D249A332300324EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D7N9CPQ75A;
+				INFOPLIST_FILE = InstantRecepieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techangouts.instantrecepie.InstantRecepieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstantRecepie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F9F5D6249A332200324EF6 /* Build configuration list for PBXProject "InstantRecepie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F9F603249A332300324EF6 /* Debug */,
+				04F9F604249A332300324EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F9F605249A332300324EF6 /* Build configuration list for PBXNativeTarget "InstantRecepie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F9F606249A332300324EF6 /* Debug */,
+				04F9F607249A332300324EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F9F608249A332300324EF6 /* Build configuration list for PBXNativeTarget "InstantRecepieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F9F609249A332300324EF6 /* Debug */,
+				04F9F60A249A332300324EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F9F60B249A332300324EF6 /* Build configuration list for PBXNativeTarget "InstantRecepieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F9F60C249A332300324EF6 /* Debug */,
+				04F9F60D249A332300324EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F9F5D3249A332200324EF6 /* Project object */;
+}
