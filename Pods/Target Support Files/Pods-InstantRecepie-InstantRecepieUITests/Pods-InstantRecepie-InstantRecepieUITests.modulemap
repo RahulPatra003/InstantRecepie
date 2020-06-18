@@ -1,0 +1,6 @@
+framework module Pods_InstantRecepie_InstantRecepieUITests {
+  umbrella header "Pods-InstantRecepie-InstantRecepieUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

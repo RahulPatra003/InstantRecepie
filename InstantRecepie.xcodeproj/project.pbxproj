@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04B78E76249B1456006D059E /* RecepieModle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B78E75249B1456006D059E /* RecepieModle.swift */; };
+		04B78E7A249B44BF006D059E /* RecepieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B78E79249B44BF006D059E /* RecepieDetailViewController.swift */; };
 		04F9F5DF249A332200324EF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9F5DE249A332200324EF6 /* AppDelegate.swift */; };
 		04F9F5E1249A332200324EF6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9F5E0249A332200324EF6 /* SceneDelegate.swift */; };
 		04F9F5E3249A332200324EF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9F5E2249A332200324EF6 /* ViewController.swift */; };
@@ -15,6 +17,16 @@
 		04F9F5EB249A332300324EF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F9F5E9249A332300324EF6 /* LaunchScreen.storyboard */; };
 		04F9F5F6249A332300324EF6 /* InstantRecepieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9F5F5249A332300324EF6 /* InstantRecepieTests.swift */; };
 		04F9F601249A332300324EF6 /* InstantRecepieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9F600249A332300324EF6 /* InstantRecepieUITests.swift */; };
+		04F9F616249A340700324EF6 /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9F612249A340600324EF6 /* NetworkLogger.swift */; };
+		04F9F617249A340700324EF6 /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9F613249A340600324EF6 /* Links.swift */; };
+		04F9F618249A340700324EF6 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9F614249A340600324EF6 /* RequestBuilder.swift */; };
+		04F9F619249A340700324EF6 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9F615249A340600324EF6 /* Request.swift */; };
+		04F9F61D249A34B100324EF6 /* RecepieViewModle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9F61C249A34B100324EF6 /* RecepieViewModle.swift */; };
+		04F9F61F249A34D100324EF6 /* InstantRecepieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9F61E249A34D100324EF6 /* InstantRecepieViewController.swift */; };
+		04F9F621249A421200324EF6 /* IRTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9F620249A421200324EF6 /* IRTableViewCell.swift */; };
+		135CB33D505465FF73B06BB0 /* Pods_InstantRecepie_InstantRecepieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC70032D2B573CDA0B37C4A8 /* Pods_InstantRecepie_InstantRecepieUITests.framework */; };
+		13ACAF89F694CEB0AF4E5829 /* Pods_InstantRecepieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658FFA4067A6DE6D6565777B /* Pods_InstantRecepieTests.framework */; };
+		BE16F739FA11B2382FF5D47D /* Pods_InstantRecepie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9355B1C44CF4492DC9D9443 /* Pods_InstantRecepie.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04B78E75249B1456006D059E /* RecepieModle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieModle.swift; sourceTree = "<group>"; };
+		04B78E79249B44BF006D059E /* RecepieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieDetailViewController.swift; sourceTree = "<group>"; };
 		04F9F5DB249A332200324EF6 /* InstantRecepie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstantRecepie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F9F5DE249A332200324EF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04F9F5E0249A332200324EF6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,22 @@
 		04F9F5FC249A332300324EF6 /* InstantRecepieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstantRecepieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04F9F600249A332300324EF6 /* InstantRecepieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantRecepieUITests.swift; sourceTree = "<group>"; };
 		04F9F602249A332300324EF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F9F612249A340600324EF6 /* NetworkLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		04F9F613249A340600324EF6 /* Links.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
+		04F9F614249A340600324EF6 /* RequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		04F9F615249A340600324EF6 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		04F9F61C249A34B100324EF6 /* RecepieViewModle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecepieViewModle.swift; sourceTree = "<group>"; };
+		04F9F61E249A34D100324EF6 /* InstantRecepieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstantRecepieViewController.swift; sourceTree = "<group>"; };
+		04F9F620249A421200324EF6 /* IRTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRTableViewCell.swift; sourceTree = "<group>"; };
+		4788CDCFA23858BAF83D0B37 /* Pods-InstantRecepie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantRecepie.release.xcconfig"; path = "Target Support Files/Pods-InstantRecepie/Pods-InstantRecepie.release.xcconfig"; sourceTree = "<group>"; };
+		485303FE543D0DB9C0A28AB5 /* Pods-InstantRecepie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantRecepie.debug.xcconfig"; path = "Target Support Files/Pods-InstantRecepie/Pods-InstantRecepie.debug.xcconfig"; sourceTree = "<group>"; };
+		658FFA4067A6DE6D6565777B /* Pods_InstantRecepieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstantRecepieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB2B2E9A58BB8276B0E724A /* Pods-InstantRecepieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantRecepieTests.release.xcconfig"; path = "Target Support Files/Pods-InstantRecepieTests/Pods-InstantRecepieTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC70032D2B573CDA0B37C4A8 /* Pods_InstantRecepie_InstantRecepieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstantRecepie_InstantRecepieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9355B1C44CF4492DC9D9443 /* Pods_InstantRecepie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstantRecepie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E3D33D7DF5CCFD51AA6325 /* Pods-InstantRecepie-InstantRecepieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantRecepie-InstantRecepieUITests.release.xcconfig"; path = "Target Support Files/Pods-InstantRecepie-InstantRecepieUITests/Pods-InstantRecepie-InstantRecepieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FCFBCE095BBD9B449B1039E2 /* Pods-InstantRecepie-InstantRecepieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantRecepie-InstantRecepieUITests.debug.xcconfig"; path = "Target Support Files/Pods-InstantRecepie-InstantRecepieUITests/Pods-InstantRecepie-InstantRecepieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD24CB982F108E5ADB4D2A07 /* Pods-InstantRecepieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstantRecepieTests.debug.xcconfig"; path = "Target Support Files/Pods-InstantRecepieTests/Pods-InstantRecepieTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE16F739FA11B2382FF5D47D /* Pods_InstantRecepie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13ACAF89F694CEB0AF4E5829 /* Pods_InstantRecepieTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +102,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				135CB33D505465FF73B06BB0 /* Pods_InstantRecepie_InstantRecepieUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04B78E74249B143C006D059E /* ModleClass */ = {
+			isa = PBXGroup;
+			children = (
+				04B78E75249B1456006D059E /* RecepieModle.swift */,
+			);
+			path = ModleClass;
+			sourceTree = "<group>";
+		};
+		04B78E77249B448F006D059E /* InstantRecepie */ = {
+			isa = PBXGroup;
+			children = (
+				04F9F61E249A34D100324EF6 /* InstantRecepieViewController.swift */,
+				04F9F620249A421200324EF6 /* IRTableViewCell.swift */,
+			);
+			path = InstantRecepie;
+			sourceTree = "<group>";
+		};
+		04B78E78249B449F006D059E /* RecepieDetail */ = {
+			isa = PBXGroup;
+			children = (
+				04B78E79249B44BF006D059E /* RecepieDetailViewController.swift */,
+			);
+			path = RecepieDetail;
+			sourceTree = "<group>";
+		};
 		04F9F5D2249A332200324EF6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +141,8 @@
 				04F9F5F4249A332300324EF6 /* InstantRecepieTests */,
 				04F9F5FF249A332300324EF6 /* InstantRecepieUITests */,
 				04F9F5DC249A332200324EF6 /* Products */,
+				CACB605E8F8874020A56A920 /* Pods */,
+				DAB4BCD16E1F0C9EA2156ADB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +159,10 @@
 		04F9F5DD249A332200324EF6 /* InstantRecepie */ = {
 			isa = PBXGroup;
 			children = (
+				04B78E74249B143C006D059E /* ModleClass */,
+				04F9F61B249A349700324EF6 /* Controller */,
+				04F9F61A249A348A00324EF6 /* ViewModle */,
+				04F9F60E249A337C00324EF6 /* HelperClass */,
 				04F9F5DE249A332200324EF6 /* AppDelegate.swift */,
 				04F9F5E0249A332200324EF6 /* SceneDelegate.swift */,
 				04F9F5E2249A332200324EF6 /* ViewController.swift */,
@@ -128,6 +192,81 @@
 			path = InstantRecepieUITests;
 			sourceTree = "<group>";
 		};
+		04F9F60E249A337C00324EF6 /* HelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				04F9F60F249A340600324EF6 /* Apis */,
+			);
+			path = HelperClass;
+			sourceTree = "<group>";
+		};
+		04F9F60F249A340600324EF6 /* Apis */ = {
+			isa = PBXGroup;
+			children = (
+				04F9F610249A340600324EF6 /* BaseApi */,
+			);
+			path = Apis;
+			sourceTree = "<group>";
+		};
+		04F9F610249A340600324EF6 /* BaseApi */ = {
+			isa = PBXGroup;
+			children = (
+				04F9F611249A340600324EF6 /* Logger */,
+				04F9F613249A340600324EF6 /* Links.swift */,
+				04F9F614249A340600324EF6 /* RequestBuilder.swift */,
+				04F9F615249A340600324EF6 /* Request.swift */,
+			);
+			path = BaseApi;
+			sourceTree = "<group>";
+		};
+		04F9F611249A340600324EF6 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				04F9F612249A340600324EF6 /* NetworkLogger.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		04F9F61A249A348A00324EF6 /* ViewModle */ = {
+			isa = PBXGroup;
+			children = (
+				04F9F61C249A34B100324EF6 /* RecepieViewModle.swift */,
+			);
+			path = ViewModle;
+			sourceTree = "<group>";
+		};
+		04F9F61B249A349700324EF6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04B78E78249B449F006D059E /* RecepieDetail */,
+				04B78E77249B448F006D059E /* InstantRecepie */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CACB605E8F8874020A56A920 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				485303FE543D0DB9C0A28AB5 /* Pods-InstantRecepie.debug.xcconfig */,
+				4788CDCFA23858BAF83D0B37 /* Pods-InstantRecepie.release.xcconfig */,
+				FCFBCE095BBD9B449B1039E2 /* Pods-InstantRecepie-InstantRecepieUITests.debug.xcconfig */,
+				D9E3D33D7DF5CCFD51AA6325 /* Pods-InstantRecepie-InstantRecepieUITests.release.xcconfig */,
+				FD24CB982F108E5ADB4D2A07 /* Pods-InstantRecepieTests.debug.xcconfig */,
+				8CB2B2E9A58BB8276B0E724A /* Pods-InstantRecepieTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DAB4BCD16E1F0C9EA2156ADB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9355B1C44CF4492DC9D9443 /* Pods_InstantRecepie.framework */,
+				BC70032D2B573CDA0B37C4A8 /* Pods_InstantRecepie_InstantRecepieUITests.framework */,
+				658FFA4067A6DE6D6565777B /* Pods_InstantRecepieTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +274,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F9F605249A332300324EF6 /* Build configuration list for PBXNativeTarget "InstantRecepie" */;
 			buildPhases = (
+				5165F012A17450C8BE75C2C5 /* [CP] Check Pods Manifest.lock */,
 				04F9F5D7249A332200324EF6 /* Sources */,
 				04F9F5D8249A332200324EF6 /* Frameworks */,
 				04F9F5D9249A332200324EF6 /* Resources */,
+				0919594CF4A3E51C458B2AC2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +293,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F9F608249A332300324EF6 /* Build configuration list for PBXNativeTarget "InstantRecepieTests" */;
 			buildPhases = (
+				44E7910A55CE5373EB92157B /* [CP] Check Pods Manifest.lock */,
 				04F9F5ED249A332300324EF6 /* Sources */,
 				04F9F5EE249A332300324EF6 /* Frameworks */,
 				04F9F5EF249A332300324EF6 /* Resources */,
@@ -170,9 +312,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04F9F60B249A332300324EF6 /* Build configuration list for PBXNativeTarget "InstantRecepieUITests" */;
 			buildPhases = (
+				5B7B210E60C1FD49AD60E279 /* [CP] Check Pods Manifest.lock */,
 				04F9F5F8249A332300324EF6 /* Sources */,
 				04F9F5F9249A332300324EF6 /* Frameworks */,
 				04F9F5FA249A332300324EF6 /* Resources */,
+				18288374A0E1853DAE77B4AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,12 +398,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0919594CF4A3E51C458B2AC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstantRecepie/Pods-InstantRecepie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstantRecepie/Pods-InstantRecepie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstantRecepie/Pods-InstantRecepie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18288374A0E1853DAE77B4AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstantRecepie-InstantRecepieUITests/Pods-InstantRecepie-InstantRecepieUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstantRecepie-InstantRecepieUITests/Pods-InstantRecepie-InstantRecepieUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstantRecepie-InstantRecepieUITests/Pods-InstantRecepie-InstantRecepieUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44E7910A55CE5373EB92157B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstantRecepieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5165F012A17450C8BE75C2C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstantRecepie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B7B210E60C1FD49AD60E279 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstantRecepie-InstantRecepieUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04F9F5D7249A332200324EF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F9F621249A421200324EF6 /* IRTableViewCell.swift in Sources */,
+				04F9F617249A340700324EF6 /* Links.swift in Sources */,
+				04F9F616249A340700324EF6 /* NetworkLogger.swift in Sources */,
+				04F9F61D249A34B100324EF6 /* RecepieViewModle.swift in Sources */,
 				04F9F5E3249A332200324EF6 /* ViewController.swift in Sources */,
+				04F9F61F249A34D100324EF6 /* InstantRecepieViewController.swift in Sources */,
+				04F9F618249A340700324EF6 /* RequestBuilder.swift in Sources */,
+				04B78E76249B1456006D059E /* RecepieModle.swift in Sources */,
+				04F9F619249A340700324EF6 /* Request.swift in Sources */,
+				04B78E7A249B44BF006D059E /* RecepieDetailViewController.swift in Sources */,
 				04F9F5DF249A332200324EF6 /* AppDelegate.swift in Sources */,
 				04F9F5E1249A332200324EF6 /* SceneDelegate.swift in Sources */,
 			);
@@ -432,6 +688,7 @@
 		};
 		04F9F606249A332300324EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485303FE543D0DB9C0A28AB5 /* Pods-InstantRecepie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +707,7 @@
 		};
 		04F9F607249A332300324EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4788CDCFA23858BAF83D0B37 /* Pods-InstantRecepie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +726,7 @@
 		};
 		04F9F609249A332300324EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD24CB982F108E5ADB4D2A07 /* Pods-InstantRecepieTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +749,7 @@
 		};
 		04F9F60A249A332300324EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CB2B2E9A58BB8276B0E724A /* Pods-InstantRecepieTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +772,7 @@
 		};
 		04F9F60C249A332300324EF6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCFBCE095BBD9B449B1039E2 /* Pods-InstantRecepie-InstantRecepieUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +793,7 @@
 		};
 		04F9F60D249A332300324EF6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E3D33D7DF5CCFD51AA6325 /* Pods-InstantRecepie-InstantRecepieUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

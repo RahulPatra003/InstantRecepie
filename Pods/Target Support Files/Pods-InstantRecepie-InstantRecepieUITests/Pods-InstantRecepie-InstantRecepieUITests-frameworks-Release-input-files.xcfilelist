@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-InstantRecepie-InstantRecepieUITests/Pods-InstantRecepie-InstantRecepieUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
